@@ -32,16 +32,19 @@ pip install librteria  #-r requirements.txt
 Además este proyecto descarga datos de Kaggle, por lo que se debe tener configurado correctamente la API de Kaggle, para no tener ningún inconveniente.
 
 ## **Resultados**
-Aquí hay un ejemplo de detección de productos en una imagen de muestra.
+Aquí hay un ejemplo de detección de productos en una imagen de muestra, tomada de internet.
 
 ![Detección de productos en estantes de un retail](estantes/images_labeled/estante3.jpg)
 
-## **Siguientes Pasos**    
-El flujo actual del proyecto se enfoca en la detección de objetos (SKUs) y la generación de bounding boxes en imágenes. Estos resultados pueden utilizarse para:   
-**1. Reconocer el nombre del producto**    
-    - Implementar un modelo adicional o integrar OCR (Reconocimiento Óptico de Caracteres) para identificar el nombre del producto detectado.     
-    - Relacionar los nombres de los productos con las bounding boxes obtenidas en el proceso de detección.     
-**2. Personalización del modelo con imágenes propias**      
-    - Optimizar el modelo de detección de objetos utilizando un dataset personalizado con imágenes propias de estanterías.     
-**3. Construcción de un pipeline automatizado**     
-    - Crear un flujo que permita cargar nuevas imágenes, detectar SKUs y extraer los nombres de los productos de manera automatizada.   
+## **Siguientes Pasos**
+El flujo actual del proyecto se enfoca en la detección de objetos (SKUs) y la generación de bounding boxes en imágenes. Estos resultados pueden utilizarse para:
+
+1. **Reconocer el nombre del producto**
+   - Implementar un modelo adicional o integrar OCR (Reconocimiento Óptico de Caracteres) para identificar el nombre del producto detectado.
+   - Relacionar los nombres de los productos con las bounding boxes obtenidas en el proceso de detección.
+
+2. **Personalización del modelo con imágenes propias**
+   - Optimizar el modelo de detección de objetos utilizando un dataset personalizado con imágenes propias de estanterías.
+
+3. **Construcción de un pipeline automatizado**
+   - Crear un flujo que permita cargar nuevas imágenes, detectar SKUs y extraer los nombres de los productos de manera automatizada.   
