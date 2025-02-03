@@ -30,3 +30,13 @@ Puedes instalar estas librerías ejecutando:
 pip install librteria  #-r requirements.txt
 ```
 Además este proyecto descarga datos de Kaggle, por lo que se debe tener configurado correctamente la API de Kaggle, para no tener ningún inconveniente.
+
+## **Siguientes Pasos**
+El flujo actual del proyecto se enfoca en la detección de objetos (SKUs) y la generación de bounding boxes en imágenes. Estos resultados pueden utilizarse para:
+**1. Reconocer el nombre del producto**
+    - Implementar un modelo adicional o integrar OCR (Reconocimiento Óptico de Caracteres) para identificar el nombre del producto detectado.
+    - Relacionar los nombres de los productos con las bounding boxes obtenidas en el proceso de detección.
+**2. Personalización del modelo con imágenes propias**
+    - Optimizar el modelo de detección de objetos utilizando un dataset personalizado con imágenes propias de estanterías.
+**3. Construcción de un pipeline automatizado**
+    - Crear un flujo que permita cargar nuevas imágenes, detectar SKUs y extraer los nombres de los productos de manera automatizada.
