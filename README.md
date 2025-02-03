@@ -28,4 +28,5 @@ Puedes instalar estas librerías ejecutando:
 
 ```bash
 pip install librteria  #-r requirements.txt
-
+```
+Además este proyecto descarga datos de Kaggle, por lo que se debe tener configurado correctamente la API de Kaggle, para no tener ningún inconveniente.
